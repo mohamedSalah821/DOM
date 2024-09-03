@@ -1,0 +1,37 @@
+ .caption{
+    background-color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    width: 80%;
+}
+
+#lightboxcontainer{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#lightbox{
+    background-image: url(../images/meal-7.jpg);
+    width: 40%;
+    height: 70vh;
+    position: relative;
+    background-size: cover; 
+    background-position: center center; 
+    
+}
+
+#closeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+i{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 10px;
+} 
+ 
